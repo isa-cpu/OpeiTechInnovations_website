@@ -1,0 +1,28 @@
+.container-web-site {
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+}
+.web-site-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.website-logo-container {
+  width: 30%;
+  margin: 5px;
+}
+.web-site-cont-1 {
+  padding: 20%;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.web-site-content-description {
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.moobile2 {
+  background-image: url('img/ik2dp.jpeg');
+  background-size: cover;
+}

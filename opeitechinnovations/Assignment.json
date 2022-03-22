@@ -1,0 +1,18 @@
+{
+  "studentId": "Re190151BCS",
+  "studentName": "Isaac Opei",
+  "studentClass": "300",
+  "studentAge": 29,
+  "isNRI": false,
+  "Address": {
+    "address1": "bereku",
+    "address2": "kasoa",
+    "city": "Kasoa",
+    "country": "Ghana",
+    "pincode": 100
+  },
+  "PhoneNumbers": [122333, 45666, 24566],
+  "PaidFees": "null",
+  "department": [{ "compia": "computer science", "cipher": "crptography" }],
+  "studentArrays": [["t1"], ["t2"]]
+}

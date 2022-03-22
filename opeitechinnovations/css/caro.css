@@ -1,0 +1,104 @@
+.section {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.me-caro {
+  width: 59%;
+  max-width: 60%;
+  margin: 2px;
+}
+@media (max-width: 675px) {
+  .me-caro {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.rightside {
+  width: 39%;
+  margin: 2px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 675px) {
+  .rightside {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.sideimg .rimg {
+  padding: 5px 0px;
+}
+
+/* @media (max-width: 675px) {
+  .section {
+    flex-wrap: wrap;
+  }
+} */
+#zoom .rimg {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+#zoom:hover .rimg {
+  transform: scale(0.5);
+}
+.rimg {
+  padding: 5px 0px;
+  width: 100%;
+}
+@media (max-width: 675px) {
+  .rimg {
+    max-width: 100%;
+  }
+}
+.carousel-control-next,
+.carousel-control-prev {
+  background: black;
+  padding: 10px;
+}
+.carts {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 675px) {
+  .carts {
+    padding: 10px;
+  }
+}
+
+#zoom1 {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+#zoom1:hover {
+  transform: scale(0.5);
+}
+#zoom1,
+#zoom1 img {
+  border-radius: 8px;
+}
+#zoom1 {
+  margin: 7px;
+}
+@media (max-width: 675px) {
+  #zoom1 {
+    margin: 10px 0px;
+  }
+}
+.card-text {
+  text-align: center;
+}

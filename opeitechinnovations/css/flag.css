@@ -1,0 +1,24 @@
+.container-flag {
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+}
+.flag-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flag-logo-container {
+  width: 30%;
+  margin: 5px;
+}
+.flag-cont-1 {
+  padding: 20%;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flag-content-description {
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

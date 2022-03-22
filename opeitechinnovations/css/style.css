@@ -1,0 +1,20 @@
+@import 'navbar.css';
+@import 'caro.css';
+@import 'footer.css';
+@import 'about.css';
+@import 'site.css';
+@import 'website.css';
+@import 'mobile.css';
+@import 'consult.css';
+@import 'train.css';
+@import 'flag.css';
+@import 'pat.css';
+@import 'contact.css';
+@import 'crs.css';
+@import 'team.css';
+body {
+  margin: 0;
+  padding: 0;
+  background: #cfd6d6;
+  font-family: 'Ubuntu', sans-serif;
+}

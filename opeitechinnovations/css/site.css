@@ -1,0 +1,39 @@
+.container-web-app {
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+}
+.web-ap-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.web-logo-container {
+  width: 30%;
+  margin: 5px;
+}
+.web-app-cont-1 {
+  padding: 20%;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.web-app-content-description {
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mobile2 {
+  background-image: url('../img/ik2dp.jpeg');
+  background-size: cover;
+  position: relative;
+  animation: ike 5s infinite;
+}
+@keyframes ike {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 100px;
+  }
+}
